@@ -6,7 +6,7 @@ UD EWT treebank is a converted version of the Estonian Web Treebank (EWT), origi
 # Introduction
 
 The Estonian Web Treebank UD v2.4 is based on the subpart of [Estonian Dependency Treebank](https://github.com/EstSyntax/) (EDT), created at the University of Tartu. The treebank has been automatically converted and then manually reviewed and reannotated.
-The treebank covers neunedited new media texts.
+The treebank covers unedited new media texts.
 
 
 # Acknowledgments
