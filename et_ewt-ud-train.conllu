@@ -3399,7 +3399,7 @@
 17	head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	20	xcomp	20:xcomp	_
 18	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj	_
 19	välja	välja	ADV	D	_	17	compound:prt	17:compound	_
-20	näevad	nägema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
+20	näevad	nägema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
 21	Üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	22	det	22:det	_
 22	asi	asi	NOUN	S	Case=Nom|Number=Sing	31	nsubj:cop	31:nsubj	_
 23	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	27	obj	27:obj	_
@@ -4779,7 +4779,7 @@
 35	nii	nii	ADV	D	_	36	advmod	36:advmod	_
 36	beibeks	beib	NOUN	S	Case=Tra|Number=Sing	37	xcomp	37:xcomp	_
 37	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	28	parataxis	28.1:parataxis	_
-38	mai	ma_eima	AUX	V	Polarity=Neg	39	aux	39:aux	_
+38	mai	ei	AUX	V	Polarity=Neg	39	aux	39:aux	_
 39	tia	teama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	parataxis	37:parataxis	SpaceAfter=No
 40	,	,	PUNCT	Z	_	44	punct	44:punct	_
 41	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	44	nsubj:cop	44:nsubj	_
@@ -4996,7 +4996,7 @@
 
 # sent_id = ewtb1_100495_33
 # text = Mai usu et ta selle narusmaili selle pärast pani et ta mingit nalja teeks, ta suht tglt naudib seda et ma haiget niimoodi saan ja nii ..
-1	Mai	ma_eima	AUX	V	Polarity=Neg	2	aux	2:aux	_
+1	Mai	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
 2	usu	uskuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	et	et	SCONJ	J	_	9	mark	9:mark	_
 4	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
@@ -5027,7 +5027,7 @@
 
 # sent_id = ewtb1_100495_34
 # text = Mai saa nendelt küsida kuna nad ple msnnis ja üks mingi läheb täiega närvi ja teisel ple telefoni ka.
-1	Mai	ma_eima	AUX	V	Polarity=Neg	4	aux	4:aux	_
+1	Mai	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
 2	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	nendelt	see	PRON	P	Case=Abl|Number=Plur|PronType=Dem	4	obl	4:obl	_
 4	küsida	küsima	VERB	V	VerbForm=Inf	0	root	0:root	_
@@ -7144,7 +7144,7 @@
 6	ajas	aeg	NOUN	S	Case=Ine|Number=Sing	7	obl	7:obl	_
 7	reastada	reastama	VERB	V	VerbForm=Inf	13	advcl	13:advcl	SpaceAfter=No
 8	,	,	PUNCT	Z	_	9	punct	9:punct	_
-9	tundub	tunduma	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+9	tundub	tunduma	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
 10	kaasajal	kaas_aeg	NOUN	S	Case=Ade|Number=Sing	13	obl	13:obl	_
 11	ainus	ainus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	_
 12	loogiline	loogiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	_
@@ -16568,7 +16568,7 @@
 
 # sent_id = ewtb2_525172_55
 # text = Tundub veider, mis?
-1	Tundub	tunduma	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+1	Tundub	tunduma	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
 2	veider	veider	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	Z	_	2	punct	2:punct	_
 4	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	obl	2:obl	SpaceAfter=No
