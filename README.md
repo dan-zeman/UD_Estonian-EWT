@@ -23,6 +23,12 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
+* 2020-01-16 **IWPT Shared Task Data**
+  * Enhanced graph: Added case information to oblique relations.
+  * Enhanced graph: Propagated parents (but not shared dependents) across coordination.
+  * Enhanced graph: Added external subjects of open clausal complements.
+  * Enhanced graph: Transformed relations between relative clauses and modified nouns.
+
 * UD v2.4: automatic conversion from CG, manual reannotation.
 
 <pre>
